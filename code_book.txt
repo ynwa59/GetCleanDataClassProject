@@ -1,0 +1,270 @@
+DATA DICTIONARY
+
+activity
+	“W” - WALKING
+	"W_US" - WALKING_UPSTAIRS
+	"W_DS" - WALKING_DOWNSTAIRS
+	"SIT" - SITTING
+	"STD" - STANDING
+	"L" - LAYING
+
+subject
+	ID number of the volunteers who carried out the experiment.
+
+tBA_mX
+	tBodyAcc-mean()-X
+
+tBA_mY
+	tBodyAcc-mean()-Y
+
+tBA_mZ
+	tBodyAcc-mean()-Z
+
+tBA_sdX
+	tBodyAcc-std()-X
+
+tBA_sdY
+	tBodyAcc-std()-Y
+
+tBA_sdZ
+	tBodyAcc-std()-Z
+               
+tGA_mX
+	tGravityAcc-mean()-X
+
+tGA_mY
+	tGravityAcc-mean()-Y
+
+tGA_mZ
+	tGravityAcc-mean()-Z
+
+tGA_sdX
+	tGravityAcc-std()-X
+
+tGA_sdY
+	tGravityAcc-std()-Y
+
+tGA_sdZ
+	tGravityAcc-std()-Z
+
+tBAJ_mX
+	tBodyAccJerk-mean()-X
+
+tBAJ_mY
+	tBodyAccJerk-mean()-Y
+
+tBAJ_mZ
+	tBodyAccJerk-mean()-Z
+
+tBAJ_sdX
+	tBodyAccJerk-std()-X
+
+tBAJ_sdY
+	tBodyAccJerk-std()-Y
+
+tBAJ_sdZ
+	tBodyAccJerk-std()-Z
+
+tBG_mX
+	tBodyGyro-mean()-X
+
+tBG_mY
+	tBodyGyro-mean()-Y
+
+tBG_mZ
+	tBodyGyro-mean()-Z
+
+tBG_sdX
+	tBodyGyro-std()-X
+
+tBG_sdY
+	tBodyGyro-std()-Y
+
+tBG_sdZ
+	tBodyGyro-std()-Z
+
+tBGJ_mX
+	tBodyGyroJerk-mean()-X
+
+tBGJ_mY
+	tBodyGyroJerk-mean()-Y
+
+tBGJ_mZ
+	tBodyGyroJerk-mean()-Z
+
+tBGJ_sdX
+	tBodyGyroJerk-std()-X
+
+tBGJ_sdY
+	tBodyGyroJerk-std()-Y
+
+tBGJ_sdZ
+	tBodyGyroJerk-std()-Z
+                
+tBAM_m
+	tBodyAccMag-mean()
+
+tBAM_sd
+	tBodyAccMag-std()
+
+tGAM_m
+	tGravityAccMag-mean()
+
+tGAM_sd
+	tGravityAccMag-std()
+
+tBAJM_m
+	tBodyAccJerkMag-mean()
+
+tBAJM_sd
+	tBodyAccJerkMag-std()
+                
+tBGM_m
+	tBodyGyroMag-mean()
+
+tBGM_sd
+	tBodyGyroMag-std()
+
+tBGJM_m
+	tBodyGyroJerkMag-mean()
+
+tBGJM_sd
+	tBodyGyroJerkMag-std()
+
+fBA_mX
+	fBodyAcc-mean()-X
+
+fBA_mY
+	fBodyAcc-mean()-Y
+
+fBA_mZ
+	fBodyAcc-mean()-Z
+                
+fBA_sdX
+	fBodyAcc-std()-X
+
+fBA_sdY
+	fBodyAcc-std()-Y
+
+fBA_sdZ
+	fBodyAcc-std()-Z
+
+fBA_mFX
+	fBodyAcc-meanFreq()-X
+
+fBA_mFY
+	fBodyAcc-meanFreq()-Y
+
+fBA_mFZ
+	fBodyAcc-meanFreq()-Z
+
+fBAJ_mX
+	fBodyAccJerk-mean()-X
+
+fBAJ_mY
+	fBodyAccJerk-mean()-Y
+
+fBAJ_mZ
+	fBodyAccJerk-mean()-Z
+                
+fBAJ_sdX
+	fBodyAccJerk-std()-X
+
+fBAJ_sdY
+	fBodyAccJerk-std()-Y
+
+fBAJ_sdZ
+	fBodyAccJerk-std()-Z
+                
+fBAJ_mFX
+	fBodyAccJerk-meanFreq()-X
+
+fBAJ_mFY
+	fBodyAccJerk-meanFreq()-Y
+
+fBAJ_mFZ
+	fBodyAccJerk-meanFreq()-Z
+                
+fBG_mX
+	fBodyGyro-mean()-X
+
+fBG_mY
+	fBodyGyro-mean()-Y
+
+fBG_mZ
+	fBodyGyro-mean()-Z
+                
+fBG_sdX
+	fBodyGyro-std()-X
+
+fBG_sdY
+	fBodyGyro-std()-Y
+
+fBG_sdZ
+	fBodyGyro-std()-Z
+                
+fBG_mFX
+	fBodyGyro-meanFreq()-X
+
+fBG_mFY
+	fBodyGyro-meanFreq()-Y
+
+fBG_mFZ
+	fBodyGyro-meanFreq()-Z
+                
+fBAM_m
+	fBodyAccMag-mean()
+
+fBAM_sd
+	fBodyAccMag-std()
+
+fBAM_mF
+	fBodyAccMag-meanFreq()
+
+fBBAJM_m
+	fBodyBodyAccJerkMag-mean()
+
+fBBAJM_sd
+	fBodyBodyAccJerkMag-std()
+                
+fBBAJM_mF
+	fBodyBodyAccJerkMag-meanFreq()
+
+fBBGM_m
+	fBodyBodyGyroMag-mean()
+                
+fBBGM_sd
+	fBodyBodyGyroMag-std()
+
+fBBGM_mF
+	fBodyBodyGyroMag-meanFreq()
+            
+fBBGJM_m
+	fBodyBodyGyroJerkMag-mean()
+
+fBBGJM_sd
+	fBodyBodyGyroJerkMag-std()
+
+fBBGJM_mF
+     	fBodyBodyGyroJerkMag-meanFreq()
+           
+a_tBAM_g
+	angle(tBodyAccMean,gravity)
+
+a_tBAJM_gm
+	angle(tBodyAccJerkMean),gravityMean)
+                
+a_tBGM_gm
+	angle(tBodyGyroMean,gravityMean)
+
+a_tBGJM_gm
+	angle(tBodyGyroJerkMean,gravityMean)
+
+a_X_gm
+	angle(X,gravityMean)
+
+a_Y_gm
+	angle(Y,gravityMean)
+
+a_Z_gm
+	angle(Z,gravityMean)
